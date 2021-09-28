@@ -11,13 +11,13 @@
 
 ### Github Stats
 
-Pushed **2427** commits
+**2430** commits
 
-Own **50** repositories
+**50** repositories
 
-Contributed to **4** public repositories
+**4** public repository contributions
 
-Top 5 most used languages across your repositories:
+### Top 5 most used languages
 
 ![JavaScript](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23f1e05a&message=JavaScript%EF%B8%B172.3%25)
 ![CSS](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23563d7c&message=CSS%EF%B8%B19.1%25)
