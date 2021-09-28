@@ -8,7 +8,7 @@ on:
     - cron: 0 8 * * *
 
 jobs:
-  update:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,7 +24,7 @@ jobs:
       - name: Generate README.md
         uses: teoxoy/profile-readme-stats@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.USER_TOKEN }}
           
       - name: Commit file changes
         run: |
