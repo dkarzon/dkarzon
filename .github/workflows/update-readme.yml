@@ -1,0 +1,36 @@
+name: Update readme with blog posts
+on: 
+  schedule:
+    # Once a day at 8 AM
+    - cron: 0 8 * * *
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Get RSS Feed
+        uses: kohrongying/readme-the-rss@master
+        with:
+          feed_url: https://dkdevelopment.net/blog/syndicate/rss
+          count: 5
+      
+      - name: Generate README.md
+        uses: teoxoy/profile-readme-stats@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit file changes
+        run: |
+            git config --global user.name 'dkarzon'
+            git config --global user.email 'dkarzon@outlook.com'
+            git add .
+            git diff --quiet --cached || git commit -m "Update README"    
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
