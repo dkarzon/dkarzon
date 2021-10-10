@@ -11,9 +11,9 @@
 
 ### Github Stats
 
-**2562** commits
+**2330** commits
 
-**50** repositories
+**49** repositories
 
 **3** public repository contributions
 
