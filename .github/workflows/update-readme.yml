@@ -4,7 +4,7 @@ on:
     branches:
       - main
   schedule:
-    # Once a day at 8 AM
+    # First of the month
     - cron: 0 0 1 * *
   workflow_dispatch:
 
