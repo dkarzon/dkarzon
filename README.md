@@ -2,16 +2,16 @@
 
 ### Latest posts
 <!-- BLOGPOSTS:START -->
+- [Basic remote PC monitoring through Home Assistant](http://dkdevelopment.net/home-assistant-basic-pc-monitoring/)
 - [Google Lighthouse CI Server Automation](http://dkdevelopment.net/lighthouse-ci-server-automation/)
 - [Tips and tricks for Github Pages](http://dkdevelopment.net/tips-and-tricks-for-github-pages/)
 - [Getting started with Singer and Docker](http://dkdevelopment.net/2020/06/14/singer-io-with-docker/)
 - [Working Remotely (and how)](http://dkdevelopment.net/2019/05/25/working-remotely/)
-- [Building a Discord voice bot with Discord.NET](http://dkdevelopment.net/2019/02/18/discord-voice-bot/)
 <!-- BLOGPOSTS:END -->
 
 ### Github Stats
 
-**2591** commits
+**2612** commits
 
 **47** repositories
 
