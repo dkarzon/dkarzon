@@ -11,11 +11,11 @@
 
 ### Github Stats
 
-**2801** commits
+**2829** commits
 
 **50** repositories
 
-**7** public repository contributions
+**8** public repository contributions
 
 ### Top 5 most used languages
 
