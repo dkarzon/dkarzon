@@ -9,6 +9,7 @@
 - [Basic remote PC monitoring through Home Assistant](https://dkdevelopment.net/home-assistant-basic-pc-monitoring/)
 <!-- BLOGPOSTS:END -->
 
+---
 
 <picture>
   <source
@@ -24,6 +25,8 @@
     src="./profile/stats-light.svg"
   />
 </picture>
+
+---
 
 <picture>
   <source

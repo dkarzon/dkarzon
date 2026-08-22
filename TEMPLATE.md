@@ -4,6 +4,8 @@
 <!-- BLOGPOSTS:START -->
 <!-- BLOGPOSTS:END -->
 
+---
+
 <picture>
   <source
     srcset="./profile/stats-dark.svg"
@@ -18,6 +20,8 @@
     src="./profile/stats-light.svg"
   />
 </picture>
+
+---
 
 <picture>
   <source
