@@ -9,18 +9,33 @@
 - [Basic remote PC monitoring through Home Assistant](https://dkdevelopment.net/home-assistant-basic-pc-monitoring/)
 <!-- BLOGPOSTS:END -->
 
-### Github Stats
 
-**7799** commits
+<picture>
+  <source
+    srcset="./profile/stats-dark.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="./profile/stats-light.svg"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img
+    alt="Damian Karzon's GitHub stats"
+    src="./profile/stats-light.svg"
+  />
+</picture>
 
-**76** repositories
-
-**8** public repository contributions
-
-### Top 5 most used languages
-
-![JavaScript](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23f1e05a&message=JavaScript%EF%B8%B162%25)
-![CSS](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23663399&message=CSS%EF%B8%B112.8%25)
-![C#](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23178600&message=C%23%EF%B8%B17.1%25)
-![TypeScript](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%233178c6&message=TypeScript%EF%B8%B15.6%25)
-![Other](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23ededed&message=Other%EF%B8%B112.3%25)
+<picture>
+  <source
+    srcset="./profile/langs-dark.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="./profile/langs-light.svg"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img
+    alt="Damian Karzon's GitHub stats"
+    src="./profile/langs-light.svg"
+  />
+</picture>

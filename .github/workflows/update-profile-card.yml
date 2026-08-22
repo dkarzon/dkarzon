@@ -1,0 +1,82 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Run every Sunday at midnight
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  build:
+    name: Build profile cards and push commit
+
+    runs-on: ubuntu-latest
+
+    environment: cards-updater
+
+    permissions:
+      contents: write # push generated SVGs and branch
+
+    env:
+      DARK_CARD: profile/stats-dark.svg
+      LIGHT_CARD: profile/stats-light.svg
+      DARK_LANGS: profile/langs-dark.svg
+      LIGHT_LANGS: profile/langs-light.svg
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Generate stats card (dark) - ${{ env.DARK_CARD }}
+        uses: stats-organization/github-readme-stats-action@v2.0.2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&show=prs_merged&theme=react
+          path: ${{ env.DARK_CARD }}
+          token: ${{ secrets.USER_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate stats card (light) - ${{ env.LIGHT_CARD }}
+        uses: stats-organization/github-readme-stats-action@v2.0.2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&show=prs_merged&theme=default
+          path: ${{ env.LIGHT_CARD }}
+          token: ${{ secrets.USER_TOKEN }}
+          fail_on_error: true
+                
+      - name: Generate top languages card (dark) - ${{ env.DARK_LANGS }}
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=react
+          path: ${{ env.DARK_LANGS }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+                
+      - name: Generate top languages card (light) - ${{ env.LIGHT_LANGS }}
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=default
+          path: ${{ env.LIGHT_LANGS }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit file changes
+        run: |
+            git config --global user.name 'dkarzon'
+            git config --global user.email 'dkarzon@outlook.com'
+            git add .
+            git diff --quiet --cached || git commit -m "Update stats cards"   
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v1.3.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
