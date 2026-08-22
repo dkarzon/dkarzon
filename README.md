@@ -2,11 +2,11 @@
 
 ### Latest posts
 <!-- BLOGPOSTS:START -->
+- [Building Nomii Without the Builder](https://dkdevelopment.net/nomii-from-draftbit-to-cursor-expo/)
 - [ScaleBop: From Vibe to Viable](https://dkdevelopment.net/from-vibe-to-viable-scalebop/)
 - [The Rise of the Engineering Agent Manager](https://dkdevelopment.net/rise-of-engineering-agent-manager/)
 - [Using Schema.org structured data to improve SEO](https://dkdevelopment.net/seo-structured-data-2025/)
 - [My Home Assistant Docker Compose file](https://dkdevelopment.net/my-home-assistant-docker-compose/)
-- [Basic remote PC monitoring through Home Assistant](https://dkdevelopment.net/home-assistant-basic-pc-monitoring/)
 <!-- BLOGPOSTS:END -->
 
 
