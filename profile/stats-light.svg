@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Damian Karzon&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 87, Total Commits  (last year) : 4790, Total PRs: 475, Total PRs Merged: 439, Total Issues: 48, Contributed to (last year): 7</desc>
+        <desc id="descId">Total Stars Earned: 87, Total Commits  (last year) : 5004, Total PRs: 501, Total PRs Merged: 465, Total Issues: 50, Contributed to (last year): 7</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,11 +73,12 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 43.925806326171;
+        stroke-dashoffset: 43.60096798633331;
       }
     }
   
   
+          
 
           
       /* Animations */
@@ -102,9 +103,15 @@
         </style>
 
         
+        <defs>
+          
+          
+        </defs>
+        
 
         <rect
           data-testid="card-bg"
+          class="card-bg"
           x="0.5"
           y="0.5"
           rx="4.5"
@@ -177,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >4.8k</text>
+      >5k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >475</text>
+      >501</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs_merged"
-      >439</text>
+      >465</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >48</text>
+      >50</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
