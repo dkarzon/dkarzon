@@ -2,11 +2,11 @@
 
 ### Latest posts
 <!-- BLOGPOSTS:START -->
+- [Swanky Kong Runs My Life Admin Now](https://dkdevelopment.net/swanky-kong-n8n-agent/)
+- [Keep Building in Lovable, Ship to Your Own Cloud](https://dkdevelopment.net/lovable-as-staging-aws-as-production/)
 - [Agents are Moving to the Cloud, and so is the Orchestration](https://dkdevelopment.net/agents-are-moving-to-the-cloud/)
 - [I built my own Coding Agent harness and orchestrator: Part 2](https://dkdevelopment.net/building-local-agent-box-pt2/)
 - [I built my own Coding Agent harness and orchestrator: Part 1](https://dkdevelopment.net/building-local-agent-box-pt1/)
-- [Building Nomii Without the Builder](https://dkdevelopment.net/nomii-from-draftbit-to-cursor-expo/)
-- [ScaleBop: From Vibe to Viable](https://dkdevelopment.net/from-vibe-to-viable-scalebop/)
 <!-- BLOGPOSTS:END -->
 
 ---
